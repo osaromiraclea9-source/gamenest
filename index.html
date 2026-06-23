@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameNest</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/input.css">
+</head>
+<body>
+    <!-- Navbar -->
+<nav class="sticky top-0 z-50 bg-slate-950/95 backdrop-blur-md border-b border-purple-500/20">
+    <div class="max-w-7xl mx-auto px-6">
+        <div class="flex items-center justify-between h-20">
+
+            <!-- Logo -->
+            <a href="index.html" class="flex items-center gap-3 group">
+                <div
+                    class="w-12 h-12 rounded-xl bg-linear-to-r from-purple-600 to-cyan-500 flex items-center justify-center shadow-lg shadow-purple-500/30 group-hover:scale-110 transition duration-300">
+
+                    <!-- Game Controller Icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        class="h-7 w-7 text-white"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+
+                        <path stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.868v4.264a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+
+                        <path stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M21 12c0 4.418-4.03 8-9 8s-9-3.582-9-8 4.03-8 9-8 9 3.582 9 8z" />
+                    </svg>
+                </div>
+
+                <div>
+                    <h1 class="text-2xl font-extrabold text-white tracking-wide">
+                        Game<span class="text-cyan-400">Nest</span>
+                    </h1>
+
+                    <p class="text-xs text-purple-400 tracking-widest uppercase">
+                        Level Up Your Library
+                    </p>
+                </div>
+            </a>
+
+            <!-- Desktop Links -->
+            <div class="hidden lg:flex items-center gap-8">
+
+                <a href="index.html"
+                    class="text-gray-300 hover:text-cyan-400 transition">
+                    Home
+                </a>
+
+                <a href="ps5.html"
+                    class="text-gray-300 hover:text-cyan-400 transition">
+                    PS5
+                </a>
+
+                <a href="xbox.html"
+                    class="text-gray-300 hover:text-cyan-400 transition">
+                    Xbox
+                </a>
+
+                <a href="pc.html"
+                    class="text-gray-300 hover:text-cyan-400 transition">
+                    PC
+                </a>
+
+                <a href="mobile.html"
+                    class="text-gray-300 hover:text-cyan-400 transition">
+                    Mobile
+                </a>
+
+                <a href="store.html"
+                    class="text-gray-300 hover:text-cyan-400 transition">
+                    Store
+                </a>
+            </div>
+
+            <!-- Right Side -->
+            <div class="hidden lg:flex items-center gap-4">
+
+                <!-- Search -->
+                <button
+                    class="w-11 h-11 rounded-full bg-slate-800 hover:bg-purple-600 transition flex items-center justify-center">
+
+                    🔍
+                </button>
+
+                <!-- Cart -->
+                <button
+                    class="relative w-11 h-11 rounded-full bg-slate-800 hover:bg-cyan-500 transition flex items-center justify-center">
+
+                    🛒
+
+                    <span
+                        class="absolute -top-1 -right-1 bg-red-500 text-white text-xs px-2 py-0.5 rounded-full">
+                        3
+                    </span>
+                </button>
+
+                <!-- Login -->
+                <button
+                    class="px-5 py-2 rounded-lg bg-linear-to-r from-purple-600 to-cyan-500 text-white font-semibold hover:scale-105 transition">
+                    Login
+                </button>
+
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button class="lg:hidden text-white text-3xl">
+                ☰
+            </button>
+
+        </div>
+    </div>
+</nav>
+
+<section class="relative min-h-screen overflow-hidden bg-[#050816]  ">
+
+    <!-- Background -->
+    <div class="absolute inset-0">
+        <img
+            src="./images/hero.jpg"
+            alt=""
+            class="w-full h-fit object-cover ">
+
+        <div class="absolute inset-0 bg-black/60"></div>
+
+        <div class="absolute inset-0 bg-linear-to-r from-[#050816] via-[#050816]/30 to-[#050816]"></div>
+    </div>
+
+    <!-- Purple Glow -->
+    <div class="absolute top-32 left-1/3 w-96 h-96 bg-purple-600/30 rounded-full blur-[150px]"></div>
+
+    <!-- Cyan Glow -->
+    <div class="absolute bottom-32 right-1/3 w-96 h-96 bg-cyan-500/20 rounded-full blur-[150px]"></div>
+
+    <div class="relative z-10 max-w-7xl mx-auto  px-6 "> 
+
+        
+        <div class="min-h-screen flex items-center justify-center w-auto  ">
+
+            <!-- Left Cards -->
+            <div class="hidden xl:flex flex-col gap-4 ">
+
+               
+
+        <div class="game-card overflow-hidden p-0 ">
+                 <img src="./images/elden ring.jpg"class=" w-full h-full object-cover">
+        </div>
+       
+
+        <div class="game-card overflow-hidden p-0">
+                <img src="./images/god of war.jpg" class="w-full h-full  object-cover">
+         </div>
+
+         
+        <div class="game-card overflow-hidden p-0">
+                <img src="./images/COD-MW3.jpg" class="w-full h-full object-cover">
+         </div>
+        <div class="game-card overflow-hidden p-0">
+                <img src="./images/gta-vi.jpg" class="w-full h-full object-cover">
+         </div>
+             </div>
+        
+
+            <!-- Left Inner -->
+             
+            <div class="hidden lg:flex flex-col gap-8 ml-6 mr-10 justify-center items-center">
+
+                <div class="game-card overflow-hidden p-0">
+             <img src="./images/madden27.jpg" class="w-full h-full object-cover"> </div>
+
+            <div class="hidden lg:flex flex-col gap-8 ">
+
+                <div class="game-card overflow-hidden p-0">
+                <img src="./images/f1-25.jpg" class="w-fit h-full object-cover">
+         </div>
+            <div class="hidden lg:flex flex-col gap-8 ">
+
+                <div class="game-card overflow-hidden p-0">
+                <img src="./images/ufc.jpg" class="w-full h-full object-cover ">
+         </div>
+             
+            </div>
+            </div>
+            </div>
+
+            <!-- CENTER CONTENT -->
+            <div class="max-w-3xl text-center  ">
+                
+
+                <span
+                    class="inline-block mb-6 px-5 py-2 border border-purple-500/40 rounded-full text-purple-300 tracking-widest uppercase">
+
+                    Discover. Play. Conquer.
+                </span>
+
+                <h1 class="font-black leading-none">
+
+                    <span class="block text-white text-6xl md:text-8xl">
+                        DISCOVER YOUR
+                    </span>
+
+                    <span
+                        class="block text-6xl md:text-8xl bg-linear-to-r from-cyan-400 via-blue-500 to-pink-500 bg-clip-text text-transparent">
+
+                        NEXT ADVENTURE
+                    </span>
+
+                </h1>
+
+                <p
+                    class="mt-8 text-xl text-gray-300 max-w-2xl mx-auto">
+
+                    Explore the latest games across all platforms.
+                    Unbeatable deals. Instant delivery.
+                    Unlimited fun.
+                </p>
+
+                <!-- Buttons -->
+                <div
+                    class="flex flex-wrap justify-center gap-5 mt-10">
+
+                    <a
+                        href="#"
+                        class="px-10 py-4 rounded-xl bg-linear-to-r from-purple-600 to-cyan-500 text-white font-bold shadow-lg shadow-purple-600/30">
+
+                        SHOP NOW →
+                    </a>
+
+                    <a
+                        href="#"
+                        class="px-10 py-4 rounded-xl border border-purple-500 text-white font-bold">
+
+                        EXPLORE GAMES
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Right Inner -->
+            <div class="hidden lg:flex flex-col gap-8 ml-10 mr-6 ">
+
+                 <div class="game-card overflow-hidden p-0">
+                <img src="./images/spider-man.jpg" class="w-full h-full object-cover">
+         </div>
+                 <div class="game-card overflow-hidden p-0">
+                <img src="./images/apex-legends.jpg" class="w-full h-full object-cover">
+         </div>
+                 <div class="game-card overflow-hidden p-0">
+                <img src="./images/fortnite.jpg" class="w-full h-full object-cover">
+         </div>
+
+            </div>
+
+            <!-- Right Cards -->
+            <div class="hidden xl:flex flex-col gap-8">
+
+                 <div class="game-card overflow-hidden p-0">
+                <img src="./images/fc24.jpg" class="w-full h-full object-cover">
+         </div>
+                 <div class="game-card overflow-hidden p-0">
+                <img src="./images/minecraft.jpg" class="w-full h-full object-cover">
+         </div>
+                 <div class="game-card overflow-hidden p-0">
+                <img src="./images/wwe2k26.jpg" class="w-full h-full object-cover">
+         </div>
+                 <div class="game-card overflow-hidden p-0">
+                <img src="./images/nba2k26.jpg" class="w-full h-full object-cover">
+         </div>
+
+            </div>
+
+        </div>
+
+        <!-- STATS -->
+        <div
+            class="relative -mt-24 max-w-5xl mx-auto bg-white/5 backdrop-blur-xl border border-purple-500/20 rounded-3xl">
+
+            <div
+                class="grid md:grid-cols-4 divide-y md:divide-y-0 md:divide-x divide-purple-500/20">
+
+                <div class="text-center p-8">
+                    <h3 class="text-5xl font-bold text-purple-400">
+                        10K+
+                    </h3>
+                    <p class="text-gray-300 mt-2">
+                        Games Available
+                    </p>
+                </div>
+
+                <div class="text-center p-8">
+                    <h3 class="text-5xl font-bold text-cyan-400">
+                        50K+
+                    </h3>
+                    <p class="text-gray-300 mt-2">
+                        Happy Players
+                    </p>
+                </div>
+
+                <div class="text-center p-8">
+                    <h3 class="text-5xl font-bold text-purple-400">
+                        500+
+                    </h3>
+                    <p class="text-gray-300 mt-2">
+                        Exclusive Deals
+                    </p>
+                </div>
+
+                <div class="text-center p-8">
+                    <h3 class="text-5xl font-bold text-cyan-400">
+                        24/7
+                    </h3>
+                    <p class="text-gray-300 mt-2">
+                        Support
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+</body>
+</html>
