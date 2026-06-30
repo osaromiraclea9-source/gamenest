@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GameNest</title>
-     <script src="https://cdn.tailwindcss.com"></script>
+      <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="../css/input.css">
     <script src="https://kit.fontawesome.com/c2a322bb25.js" crossorigin="anonymous"></script>
 </head>
@@ -71,7 +71,7 @@
                     PC
                 </a>
 
-                <a href="./nintendo-games-page.html"
+                <a href="../pages/nintendo-games-page.html"
                     class="text-gray-300 hover:text-cyan-400 transition">
                     Nintendo
                 </a>
@@ -121,140 +121,241 @@
     </div>
 </nav>
 
-<!-- XBOX FEATURED SECTION -->
-<section class="relative py-16 bg-[#020617] overflow-hidden">
+<!-- NINTENDO HERO -->
+<section class="relative py-24 overflow-hidden bg-[#07111F]">
 
      <div class="absolute inset-0">
         <img
-            src="../images/xbox-bg-2.png"
+            src="../images/nintendo-bg.png"
             alt=""
             class="w-full h-fit object-cover ">
 
         <div class="absolute inset-0 bg-black/60"></div>
-
-        <div class="absolute inset-0 bg-linear-to-r from-[#050816] via-[#050816]/30 to-[#050816]"></div>
     </div>
 
-    <!-- Green Glow -->
-    <!-- <div class="absolute top-20 left-20 w-96 h-96 bg-green-500/20 rounded-full blur-[160px]"></div>
+    <!-- Background Glows -->
+    <!-- <div class="absolute -top-20 left-0 w-96 h-96 bg-red-500/20 rounded-full blur-[180px]"></div>
 
-    <div class="absolute bottom-20 right-20 w-96 h-96 bg-emerald-400/20 rounded-full blur-[160px]"></div> -->
+    <div class="absolute bottom-0 right-0 w-96 h-96 bg-yellow-400/20 rounded-full blur-[180px]"></div>
 
-     <div class="relative max-w-7xl mx-auto px-6">
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-blue-500/10 rounded-full blur-[180px]"></div> -->
 
-        <div
-            class="rounded-3xl overflow-hidden border border-green-500/20 ">
+    <div class="relative max-w-7xl mx-auto px-6">
+
+        <div class="rounded-3xl overflow-hidden border border-red-500/20 bg-gradient-to-r from-red-900/20 via-slate-900/80 to-yellow-500/10 ">
 
             <div class="grid lg:grid-cols-2 items-center">
 
-                <!-- LEFT CONTENT -->
+                <!-- LEFT -->
 
                 <div class="p-10 md:p-16">
 
-                    <span
-                        class="inline-block px-4 py-2 rounded-full bg-green-500 text-white font-bold mb-6">
+                    <span class="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-red-600 text-white font-bold tracking-wider">
 
-                        XBOX GAME PASS
+                        🍄 NINTENDO COLLECTION
+
                     </span>
 
-                    <h2
-                        class="text-5xl md:text-6xl font-black text-white">
+                    <h2 class="mt-8 text-5xl md:text-7xl font-black text-white leading-tight">
 
-                        UNLIMITED
+                        EVERY
+
+                        <span class="block text-red-400">
+
+                            ADVENTURE
+
+                        </span>
+
+                        STARTS HERE
+
                     </h2>
 
-                    <h2
-                        class="text-6xl md:text-7xl font-black text-green-400">
+                    <p class="mt-8 text-lg text-gray-300 leading-relaxed max-w-xl">
 
-                        GAMING
-                    </h2>
-
-                    <p
-                        class="mt-6 text-lg text-gray-300 max-w-lg">
-
-                        Discover hundreds of Xbox titles,
-                        day-one releases, multiplayer adventures,
-                        and award-winning exclusives.
+                        Jump into unforgettable adventures with Mario,
+                        Zelda, Pokémon, Kirby, Animal Crossing, Splatoon,
+                        and many more Nintendo classics.
 
                     </p>
 
-                    <!-- Features -->
+                    <!-- Feature Cards -->
 
-                    <div class="mt-8 space-y-4">
+                    <div class="grid sm:grid-cols-2 gap-5 mt-10">
 
-                        <div class="flex items-center gap-3 text-gray-300">
-                            <span class="text-green-400">✔</span>
-                            Day-One Game Releases
+                        <div class="bg-white/5 border border-red-500/20 rounded-2xl p-5">
+
+                            <div class="text-4xl">🍄</div>
+
+                            <h4 class="text-white font-bold mt-4">
+
+                                Nintendo Exclusives
+
+                            </h4>
+
+                            <p class="text-gray-400 mt-2 text-sm">
+
+                                Legendary adventures only on Nintendo.
+
+                            </p>
+
                         </div>
 
-                        <!-- <div class="flex items-center gap-3 text-gray-300">
-                            <span class="text-green-400">✔</span>
-                            Xbox Series X|S Optimized
-                        </div> -->
+                        <div class="bg-white/5 border border-yellow-500/20 rounded-2xl p-5">
 
-                        <div class="flex items-center gap-3 text-gray-300">
-                            <span class="text-green-400">✔</span>
-                            Exclusive Member Rewards
+                            <div class="text-4xl">🎉</div>
+
+                            <h4 class="text-white font-bold mt-4">
+
+                                Family Fun
+
+                            </h4>
+
+                            <p class="text-gray-400 mt-2 text-sm">
+
+                                Games everyone can enjoy together.
+
+                            </p>
+
+                        </div>
+
+                        <div class="bg-white/5 border border-blue-500/20 rounded-2xl p-5">
+
+                            <div class="text-4xl">🌍</div>
+
+                            <h4 class="text-white font-bold mt-4">
+
+                                Open Worlds
+
+                            </h4>
+
+                            <p class="text-gray-400 mt-2 text-sm">
+
+                                Explore magical kingdoms and endless worlds.
+
+                            </p>
+
+                        </div>
+
+                        <div class="bg-white/5 border border-green-500/20 rounded-2xl p-5">
+
+                            <div class="text-4xl">🎮</div>
+
+                            <h4 class="text-white font-bold mt-4">
+
+                                Multiplayer
+
+                            </h4>
+
+                            <p class="text-gray-400 mt-2 text-sm">
+
+                                Share the fun with friends and family.
+
+                            </p>
+
                         </div>
 
                     </div>
 
                     <button
-                        class="mt-8 px-8 py-4 rounded-xl bg-linear-to-r from-green-500 to-emerald-400 text-black font-bold hover:scale-105 transition newsletter-btn">
+                        class="mt-10 px-8 py-4 rounded-xl bg-gradient-to-r from-red-500 via-orange-400 to-yellow-400 text-white font-bold hover:scale-105 transition duration-300 shadow-lg shadow-red-500/30">
 
-                        Explore Xbox Games
+                        Explore Nintendo Games
+
                     </button>
 
                 </div>
 
-                <!-- RIGHT SIDE -->
+                <!-- RIGHT -->
 
-                <div class="hidden lg:flex justify-center p-10">
+                <div class="relative hidden lg:flex justify-center items-center p-10">
+
+                    <!-- Decorative Rings -->
+
+                     <div class="absolute w-96 h-96 rounded-full border border-red-500/20"></div>
+
+                    <div class="absolute w-107.5 h-107.5 rounded-full border border-yellow-400/20"></div>
+
+                    <div class="absolute w-117.5 h-117.5 rounded-full border border-blue-500/20"></div>
+
+                    <!-- glow -->
+
+                    <div class="absolute w-80 h-80 bg-red-500/30 rounded-full blur-[120px]"></div> 
+
+                    <!-- Nintendo Switch -->
 
                     <img
-                        src="../images/xbox-controller.jpg"
-                        alt="Xbox Controller"
-                        class="max-w-md drop-shadow-[0_0_50px_rgba(34,197,94,0.8)] rounded-3xl">
+                        src="../images/nintendo-controller.jpg"
+                        alt="Nintendo Switch"
+                        class="relative  hover:scale-105 duration-500 drop-shadow-[0_0_60px_rgba(239,68,68,.8)] w-96 h-96 rounded-full border object-center">
 
                 </div>
 
             </div>
+                
 
         </div>
-
-  
+        <!-- NINTENDO GAMES -->
 
 <section class="py-20 ">
 
     <div class="max-w-7xl mx-auto px-6">
 
-        <div class="text-center mb-14">
+        <div class="text-center mb-16">
 
             <span
-                class="uppercase tracking-widest text-green-400">
+                class="inline-flex items-center gap-2
+                px-5 py-2
+                rounded-full
+                bg-red-500/10
+                border border-red-500/20
+                text-red-300
+                uppercase
+                tracking-[4px]
+                text-sm">
 
-                Xbox Exclusives
+                🎮 Nintendo Library
+
             </span>
 
             <h2
-                class="mt-4 text-5xl font-black text-white">
+                class="mt-6 text-5xl md:text-6xl font-black text-white">
 
-                Top Xbox Games
+                Iconic Worlds.
+
+                <span
+                    class="bg-gradient-to-r
+                    from-red-400
+                    via-yellow-300
+                    to-orange-400
+                    bg-clip-text
+                    text-transparent">
+
+                    Endless Adventures.
+
+                </span>
+
             </h2>
 
             <p
-                class="mt-4 text-gray-400 max-w-2xl mx-auto">
+                class="max-w-3xl
+                mx-auto
+                mt-6
+                text-gray-400
+                text-lg
+                leading-relaxed">
 
-                Explore the most popular Xbox exclusives and
-                next-generation adventures available on GameNest.
+                Discover beloved Nintendo adventures, platformers, racing games,
+                RPGs, party games, and timeless classics that continue to delight
+                players of all ages.
 
             </p>
 
         </div>
 
-        <!-- Product Cards Grid Here -->
+        <!-- PRODUCT GRID STARTS HERE -->
 
-         <div
+
+        <div
             class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
 
 
@@ -277,11 +378,9 @@
     <!-- Content -->
 
     <div class="p-6">
-
-       <span class="inline-block px-3 py-1 rounded-full bg-green-500/20 text-green-300 text-sm">
-    Xbox Exclusive
+<span class="inline-block px-3 py-1 rounded-full bg-red-500/20 text-red-300 text-sm">
+    Nintendo Exclusive
 </span>
-
         <h3
             class="mt-4 text-2xl font-bold text-white">
 
@@ -317,6 +416,7 @@
             </span>
 
         </div>
+
 
         <!-- Buttons -->
 
@@ -338,7 +438,9 @@
   </div>
     </div>
 
-    <div
+     <!-- F1 GAME CARD -->
+    <!-- real -->
+<div
     class="group bg-slate-900 rounded-3xl overflow-hidden border border-slate-800 hover:border-cyan-400 transition duration-300">
 
     <!-- Image -->
@@ -356,10 +458,9 @@
 
     <div class="p-6">
 
-     <span class="inline-block px-3 py-1 rounded-full bg-green-500/20 text-green-300 text-sm">
-    Xbox Exclusive
+       <span class="inline-block px-3 py-1 rounded-full bg-red-500/20 text-red-300 text-sm">
+    Nintendo Exclusive
 </span>
-
         <h3
             class="mt-4 text-2xl font-bold text-white">
 
@@ -395,6 +496,7 @@
             </span>
 
         </div>
+
 
         <!-- Buttons -->
 
@@ -435,10 +537,9 @@
 
     <div class="p-6">
 
-       <span class="inline-block px-3 py-1 rounded-full bg-green-500/20 text-green-300 text-sm">
-    Xbox Exclusive
+<span class="inline-block px-3 py-1 rounded-full bg-red-500/20 text-red-300 text-sm">
+    Nintendo Exclusive
 </span>
-
         <h3
             class="mt-4 text-2xl font-bold text-white">
 
@@ -475,6 +576,7 @@
 
         </div>
 
+
         <!-- Buttons -->
 
         <div class="flex gap-3 mt-6">
@@ -493,6 +595,8 @@
             </div>
             </div>
             </div>
+
+            <!-- more -->
 
             <div
     class="group bg-slate-900 rounded-3xl overflow-hidden border border-slate-800 hover:border-cyan-400 transition duration-300">
@@ -512,10 +616,9 @@
 
     <div class="p-6">
 
-       <span class="inline-block px-3 py-1 rounded-full bg-green-500/20 text-green-300 text-sm">
-    Xbox Exclusive
+    <span class="inline-block px-3 py-1 rounded-full bg-red-500/20 text-red-300 text-sm">
+    Nintendo Exclusive
 </span>
-
         <h3
             class="mt-4 text-2xl font-bold text-white">
 
@@ -552,84 +655,9 @@
 
         </div>
 
-        <!-- Buttons -->
+          
 
-        <div class="flex gap-3 mt-6">
 
-            <button
-                class="flex-1 py-3 rounded-xl bg-linear-to-r from-blue-600 to-cyan-500 text-white font-bold hover:scale-105 transition">
-
-                Buy Now
-            </button>
-
-            <button
-                class="px-5 rounded-xl border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black transition">
-
-                ⬇
-            </button>
-            </div>
-            </div>
-            </div>
-
-            <!-- spider-man -->
-
-            <div
-    class="group bg-slate-900 rounded-3xl overflow-hidden border border-slate-800 hover:border-cyan-400 transition duration-300">
-
-    <!-- Image -->
-
-    <div class="overflow-hidden">
-
-        <img
-            src="../images/f1-25.jpg"
-            alt=""
-            class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
-
-    </div>
-
-    <!-- Content -->
-
-    <div class="p-6">
-
-        <span class="inline-block px-3 py-1 rounded-full bg-green-500/20 text-green-300 text-sm">
-    Xbox Exclusive
-</span>
-
-        <h3
-            class="mt-4 text-2xl font-bold text-white">
-
-            God of War Ragnarök
-        </h3>
-
-        <div class="flex items-center mt-3">
-
-            <span class="text-yellow-400">
-                ★★★★★
-            </span>
-
-            <span class="ml-2 text-gray-400">
-                (4.9)
-            </span>
-
-        </div>
-
-        <!-- Pricing -->
-
-        <div class="flex items-center gap-3 mt-5">
-
-            <span
-                class="text-gray-500 line-through">
-
-                $69.99
-            </span>
-
-            <span
-                class="text-3xl font-bold text-cyan-400">
-
-                $34.99
-            </span>
-
-        </div>
 
         <!-- Buttons -->
 
@@ -650,160 +678,6 @@
             </div>
             </div>
 
-            <div
-    class="group bg-slate-900 rounded-3xl overflow-hidden border border-slate-800 hover:border-cyan-400 transition duration-300">
-
-    <!-- Image -->
-
-    <div class="overflow-hidden">
-
-        <img
-            src="../images/f1-25.jpg"
-            alt=""
-            class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
-
-    </div>
-
-    <!-- Content -->
-
-    <div class="p-6">
-<span class="inline-block px-3 py-1 rounded-full bg-green-500/20 text-green-300 text-sm">
-    Xbox Exclusive
-</span>
-
-        <h3
-            class="mt-4 text-2xl font-bold text-white">
-
-            God of War Ragnarök
-        </h3>
-
-        <div class="flex items-center mt-3">
-
-            <span class="text-yellow-400">
-                ★★★★★
-            </span>
-
-            <span class="ml-2 text-gray-400">
-                (4.9)
-            </span>
-
-        </div>
-
-        <!-- Pricing -->
-
-        <div class="flex items-center gap-3 mt-5">
-
-            <span
-                class="text-gray-500 line-through">
-
-                $69.99
-            </span>
-
-            <span
-                class="text-3xl font-bold text-cyan-400">
-
-                $34.99
-            </span>
-
-        </div>
-
-        <!-- Buttons -->
-
-        <div class="flex gap-3 mt-6">
-
-            <button
-                class="flex-1 py-3 rounded-xl bg-linear-to-r from-blue-600 to-cyan-500 text-white font-bold hover:scale-105 transition">
-
-                Buy Now
-            </button>
-
-            <button
-                class="px-5 rounded-xl border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black transition">
-
-                ⬇
-            </button>
-            </div>
-            </div>
-            </div>
-
-            <!-- spider-man -->
-
-            <div
-    class="group bg-slate-900 rounded-3xl overflow-hidden border border-slate-800 hover:border-cyan-400 transition duration-300">
-
-    <!-- Image -->
-
-    <div class="overflow-hidden">
-
-        <img
-            src="../images/f1-25.jpg"
-            alt=""
-            class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
-
-    </div>
-
-    <!-- Content -->
-
-    <div class="p-6">
-
-        <span class="inline-block px-3 py-1 rounded-full bg-green-500/20 text-green-300 text-sm">
-    Xbox Exclusive
-</span>
-
-        <h3
-            class="mt-4 text-2xl font-bold text-white">
-
-            God of War Ragnarök
-        </h3>
-
-        <div class="flex items-center mt-3">
-
-            <span class="text-yellow-400">
-                ★★★★★
-            </span>
-
-            <span class="ml-2 text-gray-400">
-                (4.9)
-            </span>
-
-        </div>
-
-        <!-- Pricing -->
-
-        <div class="flex items-center gap-3 mt-5">
-
-            <span
-                class="text-gray-500 line-through">
-
-                $69.99
-            </span>
-
-            <span
-                class="text-3xl font-bold text-cyan-400">
-
-                $34.99
-            </span>
-
-        </div>
-
-        <!-- Buttons -->
-
-        <div class="flex gap-3 mt-6">
-
-            <button
-                class="flex-1 py-3 rounded-xl bg-linear-to-r from-blue-600 to-cyan-500 text-white font-bold hover:scale-105 transition">
-
-                Buy Now
-            </button>
-
-            <button
-                class="px-5 rounded-xl border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black transition">
-
-                ⬇
-            </button>
-            </div>
-            </div>
-            </div>
 
 
             <div
@@ -824,10 +698,9 @@
 
     <div class="p-6">
 
-       <span class="inline-block px-3 py-1 rounded-full bg-green-500/20 text-green-300 text-sm">
-    Xbox Exclusive
+  <span class="inline-block px-3 py-1 rounded-full bg-red-500/20 text-red-300 text-sm">
+    Nintendo Exclusive
 </span>
-
         <h3
             class="mt-4 text-2xl font-bold text-white">
 
@@ -863,38 +736,283 @@
             </span>
 
         </div>
-
-        <!-- Buttons -->
-
-        <div class="flex gap-3 mt-6">
-
-            <button
-                class="flex-1 py-3 rounded-xl bg-linear-to-r from-blue-600 to-cyan-500 text-white font-bold hover:scale-105 transition">
-
-                Buy Now
-            </button>
-
-            <button
-                class="px-5 rounded-xl border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black transition">
-
-                ⬇
-            </button>
-            </div>
-         </div>
-    </div>
-
 
     
+
+
+
+        <!-- Buttons -->
+
+        <div class="flex gap-3 mt-6">
+
+            <button
+                class="flex-1 py-3 rounded-xl bg-linear-to-r from-blue-600 to-cyan-500 text-white font-bold hover:scale-105 transition">
+
+                Buy Now
+            </button>
+
+            <button
+                class="px-5 rounded-xl border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black transition">
+
+                ⬇
+            </button>
+            </div>
+            </div>
+            </div>
+
+
+
+            <div
+    class="group bg-slate-900 rounded-3xl overflow-hidden border border-slate-800 hover:border-cyan-400 transition duration-300">
+
+    <!-- Image -->
+
+    <div class="overflow-hidden">
+
+        <img
+            src="../images/f1-25.jpg"
+            alt=""
+            class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
+
+    </div>
+
+    <!-- Content -->
+     
+    <div class="p-6">
+    
+    <span class="inline-block px-3 py-1 rounded-full bg-red-500/20 text-red-300 text-sm">
+    Nintendo Exclusive
+</span>
+        <h3
+            class="mt-4 text-2xl font-bold text-white">
+
+            Mr Bean
+
+        </h3>
+
+        <div class="flex items-center mt-3">
+
+            <span class="text-yellow-400">
+                ★★★★★
+            </span>
+
+            <span class="ml-2 text-gray-400">
+                (4.9)
+            </span>
+
+        </div>
+
+        <!-- Pricing -->
+
+        <div class="flex items-center gap-3 mt-5">
+
+            <span
+                class="text-gray-500 line-through">
+
+                $69.99
+            </span>
+
+            <span
+                class="text-3xl font-bold text-cyan-400">
+
+                $34.99
+            </span>
             
+        </div>
+
+    <!-- Buttons -->
+
+        <div class="flex gap-3 mt-6">
+
+            <button
+                class="flex-1 py-3 rounded-xl bg-linear-to-r from-blue-600 to-cyan-500 text-white font-bold hover:scale-105 transition">
+
+                Buy Now
+            </button>
+
+            <button
+                class="px-5 rounded-xl border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black transition">
+
+                ⬇
+            </button>
+            </div>
+            </div>
+            </div>
+
+
+
+            <div
+    class="group bg-slate-900 rounded-3xl overflow-hidden border border-slate-800 hover:border-cyan-400 transition duration-300">
+
+    <!-- Image -->
+
+    <div class="overflow-hidden">
+
+        <img
+            src="../images/f1-25.jpg"
+            alt=""
+            class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
+
+    </div>
+
+    <!-- Content -->
+
+    <div class="p-6">
+
+    <span class="inline-block px-3 py-1 rounded-full bg-red-500/20 text-red-300 text-sm">
+    Nintendo Exclusive
+</span>
+        <h3
+            class="mt-4 text-2xl font-bold text-white">
+
+            God of War Ragnarök
+        </h3>
+
+        <div class="flex items-center mt-3">
+
+            <span class="text-yellow-400">
+                ★★★★★
+            </span>
+
+            <span class="ml-2 text-gray-400">
+                (4.9)
+            </span>
+
+        </div>
+
+        <!-- Pricing -->
+
+        <div class="flex items-center gap-3 mt-5">
+
+            <span
+                class="text-gray-500 line-through">
+
+                $69.99
+            </span>
+
+            <span
+                class="text-3xl font-bold text-cyan-400">
+
+                $34.99
+            </span>
+
+        </div>
+
+
+        <!-- Buttons -->
+
+        <div class="flex gap-3 mt-6">
+
+            <button
+                class="flex-1 py-3 rounded-xl bg-linear-to-r from-blue-600 to-cyan-500 text-white font-bold hover:scale-105 transition">
+
+                Buy Now
+            </button>
+
+            <button
+                class="px-5 rounded-xl border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black transition">
+
+                ⬇
+            </button>
+            </div>
+            </div>
+            </div>
+
+
+
+            <div
+    class="group bg-slate-900 rounded-3xl overflow-hidden border border-slate-800 hover:border-cyan-400 transition duration-300">
+
+    <!-- Image -->
+
+    <div class="overflow-hidden">
+
+        <img
+            src="../images/f1-25.jpg"
+            alt=""
+            class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
+
+    </div>
+
+    <!-- Content -->
+
+    <div class="p-6">
+
+     <span class="inline-block px-3 py-1 rounded-full bg-red-500/20 text-red-300 text-sm">
+    Nintendo Exclusive
+</span>
+        <h3
+            class="mt-4 text-2xl font-bold text-white">
+
+            Mario Bros
+        </h3>
+
+        <div class="flex items-center mt-3">
+
+            <span class="text-yellow-400">
+                ★★★★★
+            </span>
+
+            <span class="ml-2 text-gray-400">
+                (4.9)
+            </span>
+
+        </div>
+
+        <!-- Pricing -->
+
+        <div class="flex items-center gap-3 mt-5">
+
+            <span
+                class="text-gray-500 line-through">
+
+                $69.99
+            </span>
+
+            <span
+                class="text-3xl font-bold text-cyan-400">
+
+                $34.99
+            </span>
+
+        </div>
+       
+
+
+        <!-- Buttons -->
+
+        <div class="flex gap-3 mt-6">
+
+            <button
+                class="flex-1 py-3 rounded-xl bg-linear-to-r from-blue-600 to-cyan-500 text-white font-bold hover:scale-105 transition">
+
+                Buy Now
+            </button>
+
+            <button
+                class="px-5 rounded-xl border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black transition">
+
+                ⬇
+            </button>
+            </div>
+            </div>
+            </div>
+
 
     </div>
 
 </section>
-  </div>
+
+    </div>
 
 </section>
-    <!-- FOOTER -->
-<footer class="relative bg-[#030712] border-t border-purple-500/20 overflow-hidden ">
+
+
+
+
+<!-- footer  -->
+
+<footer class="relative bg-[#030712] border-t border-purple-500/20 overflow-hidden">
 
     <!-- Glow Effects -->
     <div class="absolute top-0 left-0 w-72 h-72 bg-purple-600/10 rounded-full blur-[120px]"></div>
@@ -952,7 +1070,7 @@
 
                 <ul class="space-y-3 mt-5">
 
-                    <li><a href="../index.html" class="footer-link">Home</a></li>
+                    <li><a href="index.html" class="footer-link">Home</a></li>
                     <li><a href="./store.html" class="footer-link">Store</a></li>
                     <li><a href="#" class="footer-link">Featured Games</a></li>
                     <li><a href="#" class="footer-link">Latest Releases</a></li>
