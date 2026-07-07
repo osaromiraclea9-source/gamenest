@@ -113,9 +113,65 @@
             </div>
 
             <!-- Mobile Menu Button -->
-            <button class="lg:hidden text-white text-3xl">
-                ☰
-            </button>
+             <button
+        class="peer flex items-center justify-center w-12 h-12 rounded-xl bg-slate-800 text-white hover:bg-purple-600 transition">
+
+        ☰
+
+    </button>
+
+    <!-- FULL SCREEN MENU -->
+
+    <div
+        class="fixed inset-0
+        bg-slate-950/95
+        backdrop-blur-xl
+        opacity-0
+        invisible
+        peer-focus:opacity-100
+        peer-focus:visible
+        transition-all
+        duration-300
+        z-50">
+
+        <div class="flex flex-col justify-center items-center h-fit bg-slate-950/95">
+
+            <a href="../index.html"
+                class="mobile-link">
+                Home
+            </a>
+
+            <a href="Ps5-games-page.html"
+                class="mobile-link">
+                PS5 Games
+            </a>
+
+            <a href="./xbox-games-pages.html"
+                class="mobile-link">
+                Xbox Games
+            </a>
+
+            <a href="./pc-games-page.html"
+                class="mobile-link">
+                PC Games
+            </a>
+
+            <a href="./nintendo-games-page.html"
+                class="mobile-link">
+                Nintendo
+            </a>
+
+        
+
+            <a href="./contant-us-page.html"
+                class="mobile-link">
+                Contact Us
+            </a>
+
+        </div>
+
+    </div>
+
 
         </div>
     </div>
@@ -272,9 +328,9 @@ Mon - Sun
 
 <div class="max-w-4xl mx-auto px-6">
 
-<div class="rounded-3xl bg-white/5 border border-purple-500/20 backdrop-blur-xl p-10">
+<div class="rounded-3xl bg-white/5 border border-purple-500/20 backdrop-blur-xl p-10 ">
 
-<h2 class="text-4xl font-black text-white text-center">
+<h2 class="text-4xl font-black text-white text-center ">
 
 Send Us A Message
 
@@ -309,7 +365,7 @@ placeholder="Tell us how we can help you..."
 class="w-full p-5 rounded-xl bg-slate-900 border border-gray-700 text-white focus:border-cyan-400 outline-none resize-none"></textarea>
 
 <button
-class="w-full py-5 rounded-xl bg-linear-to-r from-purple-600 to-cyan-500 text-white font-bold hover:scale-[1.02] duration-300">
+class="w-full py-5 rounded-xl bg-linear-to-r from-purple-600 to-cyan-500 text-white font-bold hover:scale-[1.02] duration-300 bg-purple-500/20">
 
 Send Message
 

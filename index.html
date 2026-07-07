@@ -115,9 +115,69 @@
             </div>
 
             <!-- Mobile Menu Button -->
-            <button class="lg:hidden text-white text-3xl">
-                ☰
-            </button>
+            <div class="relative lg:hidden">
+
+    <!-- Hidden Trigger -->
+    <button
+        class="peer flex items-center justify-center w-12 h-12 rounded-xl bg-slate-800 text-white hover:bg-purple-600 transition">
+
+        ☰
+
+    </button>
+
+    <!-- FULL SCREEN MENU -->
+
+    <div
+        class="fixed inset-0
+        bg-slate-950/95
+        backdrop-blur-xl
+        opacity-0
+        invisible
+        peer-focus:opacity-100
+        peer-focus:visible
+        transition-all
+        duration-300
+        z-50">
+
+        <div class="flex flex-col justify-center items-center h-fit bg-slate-950/95">
+
+            <a href="index.html"
+                class="mobile-link">
+                Home
+            </a>
+
+            <a href="./pages/Ps5-games-page.html"
+                class="mobile-link">
+                PS5 Games
+            </a>
+
+            <a href="./pages/xbox-games-pages.html"
+                class="mobile-link">
+                Xbox Games
+            </a>
+
+            <a href="./pages/pc-games-page.html"
+                class="mobile-link">
+                PC Games
+            </a>
+
+            <a href="./pages/nintendo-games-page.html"
+                class="mobile-link">
+                Nintendo
+            </a>
+
+        
+
+            <a href="./pages/contant-us-page.html"
+                class="mobile-link">
+                Contact Us
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
 
         </div>
     </div>
@@ -154,7 +214,7 @@
                
 
         <div class="game-card overflow-hidden p-0 ">
-                 <img src="./images/elden ring.jpg"class=" w-full h-full object-cover">
+                 <img src="./images/mortal kombat.jpg"class=" w-full h-full object-cover">
         </div>
        
 
@@ -177,7 +237,7 @@
             <div class="hidden lg:flex flex-col gap-8 ml-6 mr-10 justify-center items-center">
 
                 <div class="game-card overflow-hidden p-0">
-             <img src="./images/madden27.jpg" class="w-full h-full object-cover"> </div>
+             <img src="./images/assassin creed.jpg" class="w-full h-full object-cover"> </div>
 
             <div class="hidden lg:flex flex-col gap-8 ">
 
@@ -252,7 +312,7 @@
             <div class="hidden lg:flex flex-col gap-8 ml-10 mr-6 ">
 
                  <div class="game-card overflow-hidden p-0">
-                <img src="./images/spider-man.jpg" class="w-full h-full object-cover">
+                <img src="./images/halo.jpg" class="w-full h-full object-cover">
          </div>
                  <div class="game-card overflow-hidden p-0">
                 <img src="./images/apex-legends.jpg" class="w-full h-full object-cover">
@@ -273,7 +333,7 @@
                 <img src="./images/minecraft.jpg" class="w-full h-full object-cover">
          </div>
                  <div class="game-card overflow-hidden p-0">
-                <img src="./images/wwe2k26.jpg" class="w-full h-full object-cover">
+                <img src="./images/super-mario.png" class="w-full h-full object-cover">
          </div>
                  <div class="game-card overflow-hidden p-0">
                 <img src="./images/nba2k26.jpg" class="w-full h-full object-cover">
@@ -285,7 +345,7 @@
 
         <!-- STATS -->
         <div
-            class="relative -mt-24 max-w-5xl mx-auto bg-white/5 backdrop-blur-xl border border-purple-500/20 rounded-3xl">
+            class="relative -mt-24 max-w-5xl mx-auto bg-white/5 backdrop-blur-xl border border-purple-500/20 rounded-3xl sm:mt-4">
 
             <div
                 class="grid md:grid-cols-4 divide-y md:divide-y-0 md:divide-x divide-purple-500/20">

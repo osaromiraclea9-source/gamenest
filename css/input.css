@@ -1,5 +1,63 @@
 @import "tailwindcss";
 
+
+.mobile-link{
+
+    font-size:2rem;
+
+    font-weight:700;
+
+    color:white;
+
+    margin:18px 0;
+
+    position:relative;
+
+    transition:.35s;
+
+}
+
+.mobile-link::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:50%;
+
+    bottom:-8px;
+
+    width:0;
+
+    height:3px;
+
+    background:linear-gradient(
+    90deg,
+    #8b5cf6,
+    #06b6d4);
+
+    transform:translateX(-50%);
+
+    transition:.35s;
+
+}
+
+.mobile-link:hover{
+
+    color:#22d3ee;
+
+    transform:scale(1.08);
+
+    letter-spacing:2px;
+
+}
+
+.mobile-link:hover::after{
+
+    width:100%;
+
+}
+
 .game-card{
     width:180px;
     height:250px;
